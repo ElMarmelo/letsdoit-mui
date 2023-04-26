@@ -1,7 +1,5 @@
-import * as React from 'react';
 import { Box, Container, CssBaseline, Typography } from '@mui/material';
 import ListContainer from './ListContainer';
-
 const TodoContainer = () => {
     return (
         <>
@@ -14,6 +12,7 @@ const TodoContainer = () => {
                     <Typography variant='h5' align='center' sx={{textDecoration:"underline"}}>
                         What are we doing today?
                     </Typography>
+
                     <ListContainer/>
                 </Box>
             </Container>
